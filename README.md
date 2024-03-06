@@ -21,13 +21,17 @@ The project is structured as follows:
 
 ## Main Highlights and Outcomes
 
-- The dataset shows a comparable distribution among participants' bank balances and a similar gender ratio (~60-40).
-A potential multicollinearity issue was identified between Price and Ticket Class.
-Logistic Regression model performance varies with the number of variables and PCA components:
+- The dataset shows a comparable distribution among participants' bank balances and a similar gender ratio (~60-40) and a potential multicollinearity issue was identified between Price and Ticket Class.
+- Logistic Regression model performance varies with the number of variables and PCA components:
 Standard Logistic Regression with 6 variables achieved a 66% accuracy.
 PCA-enhanced Logistic Regression showed varied accuracies (57% for 2 components, 61% for 4 and 6 components).
+
 LASSO Logistic Regression outperformed other models with a 78% accuracy, indicating its effectiveness in identifying key variables.
-The optimal number of clusters for K-means, determined via the elbow method, was found to be 2, reflecting a significant change in inertia at this point.
+
+- The optimal number of clusters for K-means, determined via the elbow method, was found to be 2, reflecting a significant change in inertia at this point.
+  <img src="elbow.png" width="540" height="381">
+  
+  <img src="knn-1.png" width="540" height="381">
 
 ## Conclusion
 The analysis highlights the importance of selecting appropriate modeling techniques and the trade-offs between model complexity and performance. While PCA provides a lighter computational load, it may not always lead to better predictions, as evidenced by the varying accuracies. LASSO Logistic Regression proved to be more efficient for this particular dataset. Additionally, K-means clustering offered insightful unsupervised segmentation, though it clustered differently from the actual labels.
