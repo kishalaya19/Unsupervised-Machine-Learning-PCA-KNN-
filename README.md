@@ -29,11 +29,12 @@ PCA-enhanced Logistic Regression showed varied accuracies (57% for 2 components,
 LASSO Logistic Regression outperformed other models with a 78% accuracy, indicating its effectiveness in identifying key variables.
 
 - The optimal number of clusters for K-means, determined via the elbow method, was found to be 2, reflecting a significant change in inertia at this point.
-  <img src="elbow.png" width="540" height="381">
-  
-  <img src="knn-1.png" width="540" height="381">
 
-  <img src="knn-2.png" width="540" height="381">
+ <img src="elbow.png" width="540" height="381">
+  
+ <img src="knn-1.png" width="540" height="381">
+
+ <img src="knn-2.png" width="540" height="381">
   Knn ckustering compared to the actual classes
 
 ## Conclusion
