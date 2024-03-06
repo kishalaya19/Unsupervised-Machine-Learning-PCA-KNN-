@@ -35,7 +35,7 @@ LASSO Logistic Regression outperformed other models with a 78% accuracy, indicat
  <img src="knn-1.png" width="540" height="381">
 
  <img src="knn-2.png" width="540" height="381">
-  Knn ckustering compared to the actual classes
+  Knn clustering compared to the actual classes
 
 ## Conclusion
 The analysis highlights the importance of selecting appropriate modeling techniques and the trade-offs between model complexity and performance. While PCA provides a lighter computational load, it may not always lead to better predictions, as evidenced by the varying accuracies. LASSO Logistic Regression proved to be more efficient for this particular dataset. Additionally, K-means clustering offered insightful unsupervised segmentation, though it clustered differently from the actual labels.
