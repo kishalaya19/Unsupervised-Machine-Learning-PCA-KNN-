@@ -11,13 +11,13 @@ The project is structured as follows:
   Examining distributions of various features through histograms, scatter plots, and box plots.
 
 - PCA Analysis:
-  Reducing dimensionality and developing logistic regression models with different numbers of dimensions to predict event entry.
+  PCA, or Principal Component Analysis, is a statistical technique used to simplify complex data sets. By identifying the most important features (or 'principal components'), PCA reduces the dimensionality of data while preserving as much variation as possible. This makes it easier to visualize and analyze large datasets by highlighting their most significant patterns and relationships, kind of like filtering out the noise to focus on the music. Here were using PCA to reduce dimensionality and developing logistic regression models with different numbers of dimensions to predict event entry.
 
-- Decision Tree Analysis: P
+- Decision Tree Analysis:
   Preparing data and training a decision tree classifier to predict event entry.
 
 - K Means Clustering:
-  Performing clustering based on Age and Price to analyze patterns within attendees.
+  K Means is a unsupervised ML algorithm which sorts data points into groups (clusters) based on their features, even though it doesn’t know anything about them beforehand. You tell it how many groups (k) to make, and it starts with random center points for each group, then shuffles data around, trying to keep similar items together while minimizing differences within each group. Here we are performing clustering based on Age and Price to analyze patterns within attendees.
 
 ## Main Highlights and Outcomes
 
